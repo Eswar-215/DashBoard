@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "id": "cat-cspm",
+      "name": "CSPM Executive Dashboard"
+    },
+    {
+      "id": "cat-cndr",
+      "name": "CNDR Overview"
+    },
+    {
+      "id": "cat-app",
+      "name": "App Posture"
+    }
+  ],
+  "widgets": {
+    "byId": {
+      "w-1": {
+        "id": "w-1",
+        "name": "Policy Violations",
+        "text": "Random text for policy violations",
+        "categories": [
+          "cat-cspm"
+        ]
+      },
+      "w-2": {
+        "id": "w-2",
+        "name": "Risk Heatmap",
+        "text": "Random text for risk heatmap",
+        "categories": [
+          "cat-cspm",
+          "cat-cndr"
+        ]
+      },
+      "w-3": {
+        "id": "w-3",
+        "name": "Assets by Cloud",
+        "text": "Random text for assets by cloud",
+        "categories": [
+          "cat-cndr"
+        ]
+      },
+      "w-4": {
+        "id": "w-4",
+        "name": "Top 10 Apps",
+        "text": "Random text for top apps",
+        "categories": [
+          "cat-app"
+        ]
+      }
+    },
+    "allIds": [
+      "w-1",
+      "w-2",
+      "w-3",
+      "w-4"
+    ]
+  }
+}
